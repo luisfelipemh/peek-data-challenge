@@ -23,7 +23,8 @@
 ### Key Definitions
 * **Active Customer:** A user with at least 1 completed order in a month (`status = 'Complete'` and `returned_at IS NULL`).
 * **New vs. Returning:** A "New" customer made their first-ever purchase in that month. A "Returning" customer made their first purchase in a previous month.
-* **Retention & Churn:** M0 is the month a user buys for the first time (always 100%). M1 to M12 show the % of those exact same users who buy again in the following months. Because our M1 retention is less than 4%, it clearly shows our >96% churn.
+* **Monthly Retention (Task B):** Looks at the monthly revenue mix. It measures how many users from any previous month came back to buy again in the current month.
+* **Cohort Retention (Part 2):** Tracks a specific group of users over time. M0 is the month a user buys for the first time (always 100%). M1 to M12 show the % of those exact same users who buy again in the following months. Because our M1 retention is less than 4%, it clearly shows our >96% churn right after the first purchase.
 * **Cohort:** Users grouped by the month of their first purchase.
 
 ### Task C: 90-Day Churn Limitation
