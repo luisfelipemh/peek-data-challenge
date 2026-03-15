@@ -33,6 +33,7 @@
 
 ### Task D: Product Change Impact & Data Studio Logic
 * **Assumptions:** The Jan 15 "Free Shipping over $100" feature is not in the data. So, I created a proxy segment to track orders >= $100 vs < $100.
+* **Success Metrics:** The primary metric is Average Order Value (AOV) because the goal is to make users spend more per checkout. The secondary metric is the % of orders over $100.
 * **Google Data Studio Calculation:** In the SQL, I only exported the raw counts (`orders_over_100` and `total_orders`). Then, I created a calculated field in Data Studio to calculate the % of orders over $100.
 * **Why I did this in Data Studio:** I wanted to build a line chart because it is the best way to see trends over time. I also added a 7-day moving average line to remove daily noise and see the true overall AOV trend before and after the experiment launch.
 * **Extra Data Needed:** To run a real A/B test, I would need an `experiment_group` column (Control vs Variant) and the `shipping_fee` cost.
