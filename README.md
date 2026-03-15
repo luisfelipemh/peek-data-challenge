@@ -10,7 +10,7 @@
 
 * **Main Trend:** Our revenue is growing, but it depends 100% on new customers. Our retention drops a lot. By M1, retention is below 4%. This means our churn is >96% right after the first purchase. This happens across all countries and channels.
 * **The Checkout Leak:** 63% of users add items to the cart, but only 26% complete a purchase.
-* **Product Ideas:**
+* **Product Ideas: [More context in Data Studio Dashboard]**
   * **SEM Test:** Give a $20 credit for the second order. This gives users a reason to buy again and helps fix our M1 churn.
   * **Dynamic Progress Bar:** Show a bar in the cart saying "Add $15 more to get Free Shipping!". This should increase our AOV for the experiment
   * **Guest Checkout:** Add Apple Pay, Google Pay, and guest checkout. This reduces friction and helps fix the drop-off between the cart and the purchase.
