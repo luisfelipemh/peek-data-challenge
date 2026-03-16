@@ -55,6 +55,17 @@
 
 ---
 
+### User Segmentation 
+
+To better understand user behavior, I would segment users into three groups based on their lifecycle stage:
+
+* **Abandoned Carts:** Users who added items to their cart multiple times in the last 30 days but have zero completed purchases. These users show strong intent but drop off between **Add to Cart** and **Purchase** in the funnel.
+* **Loyal Core:** Users who purchased in at least two different months. These are the users who come back and represent the healthiest part of the customer base.
+* **One-Time Buyers:** Users who purchased once and have not returned in more than 90 days. This group likely represents most of the >95% churn seen in the retention analysis.
+
+
+---
+
 ## Part 3: AI & Analytics
 
 * **AI Usage:** I used Gemini to write the base SQL queries, structure the CTEs, and check for edge cases.
