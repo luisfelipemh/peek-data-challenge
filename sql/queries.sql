@@ -104,8 +104,7 @@ WITH order_totals AS (
     WHERE 
         oi.status = 'Complete' 
         AND oi.returned_at IS NULL
-        AND DATE(o.created_at) >= '2021-07-15' 
-        AND DATE(o.created_at) < '2022-07-15'
+        AND DATE(o.created_at) BETWEEN '2021-11-16' AND '2022-03-16'
     GROUP BY 1, 2, 3, 4
 )
 
